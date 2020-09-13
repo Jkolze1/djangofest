@@ -54,15 +54,13 @@ h5 {
 }
 
 #apply {
-  background: $blue-green;
+  background: $green;
   color: $white;
-  border-top: solid 10px $dark-blue-green;
-  border-bottom: solid 10px $dark-blue-green;
-  height: 640px;
   overflow: hidden;
+  padding: 60px 40px;
 
   .container {
-    height: 100vh;
+    height: 10vh;
     margin: 0;
     max-width: 100%;
 
@@ -90,7 +88,7 @@ h5 {
 }
 
 #faq {
-  background: $green;
+  background: $blue-green;
   text-align: center;
 
   .container {
@@ -132,11 +130,9 @@ h5 {
 }
 
 #team {
-    background: $navy;
+    background: $aqua;
     text-align: center;
     padding: 100px 0px 100px 0px;
-    border-top: solid 10px $dark-navy;
-    border-bottom: solid 10px $dark-navy;
 
     .team-member {
       display: flex;
@@ -166,8 +162,6 @@ h5 {
   background: $blue;
   text-align: center;
   padding: 100px 0px 100px 0px;
-  border-top: solid 10px $dark-blue;
-  border-bottom: solid 10px $dark-blue;
 
   .mentor {
     display: flex;
@@ -199,16 +193,16 @@ h5 {
 #sponsors {
   display: flex;
   align-items: center;
-    background: $blue-green;
+    background: $white;
     padding: 100px 40px;
-    border-top: solid 10px $dark-blue-green;
-    border-bottom: solid 10px $dark-blue-green;
     text-align: center;
+    color: $black;
   
 
     p {
       font-size: 1.5rem;
       font-weight: 300;
+      color: $black;
  
     }
 

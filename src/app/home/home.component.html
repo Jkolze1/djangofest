@@ -67,13 +67,44 @@
      <div class="row">
         <div class="col-sm-12">
            <h4 class="text-center">Apply today</h4>
-           <p class="text-center">We couldn't be here without the support from amazing organizations and people who donated money, knowledge, and time to help us make this a reality. <br>If you want to contribute and support our goal, please get in touch at mailto:"{{ groupObj.accountExecutiveEmail }}"!         <br>    <a class="btn btn-light" href="https://forms.gle/MB8HB99gooyZnFMg9" role="button" pageScroll routerLink="/">Apply today!</a>
+           <p class="text-center">We couldn't be here without the support from amazing organizations and people who donated money, knowledge, and time to help us make this a reality. <br>If you want to contribute and support our goal, please get in touch at!         <br>    <a class="btn btn-light" href="https://forms.gle/MB8HB99gooyZnFMg9" role="button" pageScroll routerLink="/">Apply today!</a>
            </p>
         </div>
      </div>
   </div>
-  <div class="apply-img"></div>
 </section>
+<section id="sponsors">
+    <div class="container">
+       <h4 class="text-left">Sponsors</h4>
+       <p class="text-left">We couldn't be here without the support from amazing organizations and people who donated money, knowledge, and time to help us make this a reality. If you want to contribute and support our goal, please get in touch at kansascity@djangogirls.org!</p>
+       <div class="row">
+          <div class="col-md-3">
+             <a href="https://www.crema.us/" target="_blank">
+             <img src="https://djangogirls.org/uploads/event/sponsors/Crema_Black_Logo_1_ZEdhmGk.png.204x204_q85.png" alt="Crema">
+             </a>
+             <p>Silver Sponsor</p>
+          </div>
+          <div class="col-md-3">
+             <a href="https://www.djangoproject.com/" target="_blank">
+             <img src="https://djangogirls.org/uploads/event/sponsors/djangoproject.jpg.204x204_q85.jpg" alt="Django Project">
+             </a>
+             <p>Silver Sponsor</p>
+          </div>
+          <div class="col-md-3">
+             <a href="https://www.elastic.co/" target="_blank">
+             <img src="https://djangogirls.org/uploads/event/sponsors/Elastic_RqFq9vp.png.204x204_q85.png" alt="Elastic">
+             </a>
+             <p>Platinum Sponsor</p>
+          </div>
+          <div class="col-md-3">
+             <a href="https://flatironschool.com" target="_blank">
+             <img src="https://djangogirls.org/uploads/event/sponsors/flatiron.PNG.204x204_q85.PNG" alt="Flatiron School">
+             </a>
+             <p>Platinum Sponsor</p>
+          </div>
+       </div>
+    </div>
+  </section>
 <section id="team">
   <div class="container">
      <div class="row">
@@ -92,6 +123,7 @@
      </div>
   </div>
 </section>
+ 
 <section id="mentor">
   <div class="container">
      <div class="row">
@@ -102,42 +134,10 @@
         <div class="col-sm-1"></div>
      </div>
      <div class="row">
-        <div class="col-sm-3" *ngFor="let member of team">
+        <div class="col-sm-3 team-mentor" *ngFor="let mentor of team">
            <img class="rounded-circle" src="{{mentor.img}}" alt="{{mentor.name}}"/>
            <h6>{{mentor.name}}</h6>
            <p>{{mentor.title}}</p>
-        </div>
-     </div>
-  </div>
-</section>
-<section id="sponsors">
-  <div class="container">
-     <h4 class="text-left">Sponsors</h4>
-     <p class="text-left">We couldn't be here without the support from amazing organizations and people who donated money, knowledge, and time to help us make this a reality. If you want to contribute and support our goal, please get in touch at kansascity@djangogirls.org!</p>
-     <div class="row">
-        <div class="col-md-3">
-           <a href="https://www.crema.us/" target="_blank">
-           <img src="https://djangogirls.org/uploads/event/sponsors/Crema_Black_Logo_1_ZEdhmGk.png.204x204_q85.png" alt="Crema">
-           </a>
-           <p>Silver Sponsor</p>
-        </div>
-        <div class="col-md-3">
-           <a href="https://www.djangoproject.com/" target="_blank">
-           <img src="https://djangogirls.org/uploads/event/sponsors/djangoproject.jpg.204x204_q85.jpg" alt="Django Project">
-           </a>
-           <p>Silver Sponsor</p>
-        </div>
-        <div class="col-md-3">
-           <a href="https://www.elastic.co/" target="_blank">
-           <img src="https://djangogirls.org/uploads/event/sponsors/Elastic_RqFq9vp.png.204x204_q85.png" alt="Elastic">
-           </a>
-           <p>Platinum Sponsor</p>
-        </div>
-        <div class="col-md-3">
-           <a href="https://flatironschool.com" target="_blank">
-           <img src="https://djangogirls.org/uploads/event/sponsors/flatiron.PNG.204x204_q85.PNG" alt="Flatiron School">
-           </a>
-           <p>Platinum Sponsor</p>
         </div>
      </div>
   </div>
